@@ -28,13 +28,9 @@ void abrirArquivo(char *arquivoAtual) {
 }
 int main(int argc, char *argv[]) {
 
-    //char arquivoAtual[100];
-
-    //int marcador = 5;
 
     for(int palavra = 1; palavra < argc; palavra++) {
 
-        //printf("Arquivo lido %s", argv[palavra]);
         abrirArquivo(argv[palavra]);
 
     }
