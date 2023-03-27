@@ -2,9 +2,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-void buscarNoArquivo() {
-
-}
 void abrirArquivo(char *arquivoAtual, char *palavraBuscada) {
 
     FILE *pArquivo = fopen(arquivoAtual, "r");
